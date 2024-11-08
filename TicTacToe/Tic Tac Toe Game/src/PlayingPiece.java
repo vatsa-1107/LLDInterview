@@ -3,4 +3,8 @@ public class PlayingPiece {
     public PlayingPiece(PieceType pieceType){
         this.pieceType = pieceType;
     }
+
+    public PieceType getPieceType() {
+        return pieceType;
+    }
 }
