@@ -1,6 +1,6 @@
 public class InternalButton {
     private InternalButtonDispatcher obj;
-    private void pressButton(int button){
+    public void pressButton(int button, ElevatorCar elevatorCar){
 
     }
 }

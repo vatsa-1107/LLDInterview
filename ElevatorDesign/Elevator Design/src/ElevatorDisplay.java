@@ -7,4 +7,12 @@ public class ElevatorDisplay {
     public Direction getDirection(){
         return direction;
     }
+    public void showDisplay(){
+        System.out.println(floorNum);
+        System.out.println(direction);
+    }
+    public void setDisplay(int floorNum, Direction direction){
+        this.floorNum = floorNum;
+        this.direction = direction;
+    }
 }

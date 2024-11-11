@@ -1,6 +1,9 @@
 import java.util.List;
 
 public class InternalButtonDispatcher {
-    private List<ElevatorController> list;
+    private ElevatorController elevatorControllerObj;
+    public void submitJob(int floor, Direction direction){
+
+    }
 
 }
